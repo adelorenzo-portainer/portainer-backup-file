@@ -19,3 +19,5 @@ In this quick tutorial you will learn how to backup a Portainer instance to a ta
 <img width="2056" alt="Screenshot 2023-06-02 at 10 59 44 AM" src="https://github.com/adelorenzo-portainer/portainer-backup-file/assets/81579885/285676bb-ac80-4316-a750-f57672010d80">
 
 6) The ``portainer_backup.sh`` bash script in this repo is an example that can be used to automate the backup process with a scheduler like `cron`, for example. Make sure to change the variables named `API_KEY` with the one generated using the steps above and `URL` with the address of your Portainer server. It is importainer to leave the `/api/backup` sub-path after the URL variable so the proper backup API call is invoked.
+
+7) If you want to add a password to the backup file, make sure to change the script where it reads `--data '{ "password": "PASSWORD_HERE" }'` in the `portainer_backup.sh` example.
