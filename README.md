@@ -1,4 +1,4 @@
-# portainer-backup-file
+# Portainer backup to file howto
 How to backup a Portainer instance using an API call to a tar.gz file
 
 In this quick tutorial you will learn how to backup a Portainer instance to a tar.gz file that you can store in any filesystem.
